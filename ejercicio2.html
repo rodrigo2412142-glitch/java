@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demostración de Output en Javascript</title>
+    </head>
+    <body>
+        <h1>Demostración de Output en Javascript</h1>
+        <button onclick="mostrarAlerta()">Mostrar Alerta</button>
+        <p id="demo"></p>
+        <button onclick="cambiarContenido()">Cambiar Contenido</button>
+    
+        <script>
+        function mostrarAlerta() {
+            alert("Rodrigo");
+        }
+    
+        function cambiarContenido() {
+            document.getElementById("demo").innerHTML = "¡Texto actualizado con Javascript!";
+        }
+    
+        console.log("La página se ha cargado correctamente.");
+        </script>
+    </body>
